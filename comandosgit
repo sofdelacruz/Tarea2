@@ -1,0 +1,21 @@
+Hacer un diretorio nuevo con $ mkdir Taller 
+Cambiar al nuevo directorio con $  cd Taller
+En el nuevo directorio abrir un repositorio con $ git init
+Crear el repositorio en github y enlazarlo con el local con $ git remote add Tarea https://github.com/sofdelacruz/Tarea2.git
+Crear un README con $ touch README
+Agregarlo al repositorio con $ git add README
+Escribir línea inicial en README con $ emacs ~/Taller/README README 
+Copiar el archivo de la tarea al repositorio local $ cp ~/Desktop/EJ1.txt ~/Taller/EJ
+Agregar la tarea al repositorio con $ git add EJ
+Ver el estado con $git status
+Confirmar los cambios con $git commit
+   Se abre una ventana. Escribir una línea. Guardar. Cerrar. 
+Enviar al repositorio remoto con $ git push -u tarea2 master
+   Escribir usuario y contraseña
+
+
+
+
+
+
+
