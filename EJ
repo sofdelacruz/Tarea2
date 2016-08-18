@@ -1,0 +1,48 @@
+cd /var/log/
+ls a*.log 
+
+cd / 
+cd ./var/log
+
+cd /usr/share/ 
+cd ../../var/log/ 
+
+cd facultad/calculo/ayudantia
+cd ../../../../../var/log
+
+cd /usr/local/bin/
+cd ../../../var/log
+
+cd ~
+mkdir miPractica
+cd miPractica
+mkdir usuarios archivo
+cd miPractica/archivo
+touch raizArchivo.dat
+cd ../
+ls > raizArchivos.dat 
+
+cd~
+chmod 644 miPractica/archivo/raizArchivo.dat miPractica/archivos  miPractica/usuarios miPractica
+
+chmod 700 miPractica miPractica/usuarios miPractica/archivo/ miPractica/archivo/raizArchivo.dat 
+
+chmod 600 miPractica/archivo/raizArchivo.dat miPractica/archivos  miPractica/usuarios miPractica
+
+chmod 700 miPractica miPractica/usuarios miPractica/archivo/ miPractica/archivo/raizArchivo.dat 
+
+cp -r miPractica Documents
+mv Documents/miPractica Documents/ejercicios
+
+rm -r miPractica 
+
+
+
+
+
+
+
+
+
+
+
